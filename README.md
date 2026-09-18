@@ -1,4 +1,4 @@
-# Korognai SMO — Reference Implementation
+# Kaldrivon SMO — Reference Implementation
 
 A single-file, browser-based SMO / Non-RT RIC reference demo — now spanning **RAN, Core and Transport** — with closed-loop rApps/cApps/tApps, FCAPS, slicing, intent-based assurance, conflict resolution, and security by evidence. No backend, no build step, no server required.
 
@@ -10,7 +10,7 @@ Open `index.html` in any modern browser and it runs — from GitHub Pages, any o
 
 One HTML file ships **two linked experiences**:
 
-1. **Korognai SMO (RAN)** — the main site. A RAN-focused SMO / Non-RT RIC reference implementation: architecture, FCAPS, closed-loop rApps, slicing, security, and documentation.
+1. **Kaldrivon SMO (RAN)** — the main site. A RAN-focused SMO / Non-RT RIC reference implementation: architecture, FCAPS, closed-loop rApps, slicing, security, and documentation.
 2. **Cross-Domain SMO — concept preview** — reachable from the main site via the pulsing **"Want to see into the future?"** card beside the header. It extends the identical closed-loop philosophy across **Core** (cApps) and **Transport** (tApps) as well as RAN, and opens in a sandboxed `<iframe>` so its tabs, data and scripts never collide with the main app's.
 
 Every number, alarm, topology, and scenario in both is **synthetic** — generated live, in-browser, by JavaScript. Nothing here is live network data, and no vendor's proprietary material is used anywhere in it.
@@ -24,7 +24,7 @@ Just open `index.html`. That's it.
 - **Deep links:** every tab in both experiences is bookmarkable/shareable via a URL hash, e.g. `yourdomain.com/#intent-based-assurance` or `yourdomain.com/#core-apps`. Hash fragments never touch the server, so this works with zero server-side routing config, on any host.
 - **Mobile:** responsive down to phone width — header stacks, tab bar becomes a horizontal swipe strip, and tooltips don't get stuck open on touch devices.
 
-## Korognai SMO (RAN) — what's in it
+## Kaldrivon SMO (RAN) — what's in it
 
 | Tab | What it shows |
 |---|---|
